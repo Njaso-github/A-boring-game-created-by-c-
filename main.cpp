@@ -35,7 +35,7 @@ int main()
                 break;
             }
 
-            int answer;
+            long long answer;
             cin >> answer;
 
             if (answer != 114514 && answer != 1145141919 && answer != 1145141919810){
@@ -62,7 +62,7 @@ int main()
 
         switch(correct){
         case 0:
-            cout << "score:" << correct * 20.0 << endl;
+            cout << "score: " << correct * 20.0 << endl;
             cout << "You suck!" << endl;
             break;
 
@@ -83,7 +83,7 @@ int main()
 
         default:
             cout << "Excellent!!!" << endl;
-            cout << "score:" << 1145141919810 << endl;
+            cout << "score: " << 1145141919810 << endl;
             break;
         }
 
